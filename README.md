@@ -3,16 +3,16 @@
 ## Screenshots
 
 ### Flags with evidence
-![Flags tab](screenshots/flag.png)
+![Flags tab](Screenshots/flag.png)
 
 ### Evaluation metrics
-![Evaluation metrics](screenshots/metrics.png)
+![Evaluation metrics](Screenshots/metrics.png)
 
 ### Append-only audit log
-![Audit log](screenshots/audit.png)
+![Audit log](Screenshots/audit.png)
 
 ### Upload documents
-![Upload tab](screenshots/upload.png)
+![Upload tab](Screenshots/upload.png)
 
 ## Problem
 
