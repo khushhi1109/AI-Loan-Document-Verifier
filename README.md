@@ -1,5 +1,19 @@
 # AI Loan Document Verifier
 
+## Screenshots
+
+### Flags with evidence
+![Flags tab](screenshots/flag.png)
+
+### Evaluation metrics
+![Evaluation metrics](screenshots/metrics.png)
+
+### Append-only audit log
+![Audit log](screenshots/audit.png)
+
+### Upload documents
+![Upload tab](screenshots/upload.png)
+
 ## Problem
 
 Reviewing an applicant's identity proof, salary slips, and bank statement side by side can be time-consuming. This project extracts fields from PDF documents and applies deterministic rules to surface cross-document inconsistencies, with source citations for a human underwriter to review. It is decision support only: it never approves or rejects a loan.
