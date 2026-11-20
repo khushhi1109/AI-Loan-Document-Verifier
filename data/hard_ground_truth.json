@@ -1,0 +1,915 @@
+[
+  {
+    "applicant_id": "APP_061",
+    "is_clean": true,
+    "is_hard_negative": true,
+    "hard_negative_type": "swapped_name_order",
+    "is_hard_test_set": true,
+    "planted_mismatches": [],
+    "expected_fields": {
+      "id_document": {
+        "id_type": "AADHAAR",
+        "id_number": "9876 5432 1098",
+        "applicant_name": "Pillai Anand",
+        "date_of_birth": "14/07/1986"
+      },
+      "salary_slips": [
+        {
+          "employer_name": "Infosys Limited",
+          "applicant_name": "Anand Pillai",
+          "slip_id": "EMP_061_1",
+          "pay_period": "2023-10",
+          "pay_month_name": "October 2023",
+          "gross_pay": 130000.0,
+          "deductions": 15000.0,
+          "net_pay": 115000.0,
+          "date_of_birth": "14/07/1986"
+        },
+        {
+          "employer_name": "Infosys Limited",
+          "applicant_name": "Anand Pillai",
+          "slip_id": "EMP_061_2",
+          "pay_period": "2023-11",
+          "pay_month_name": "November 2023",
+          "gross_pay": 130000.0,
+          "deductions": 15000.0,
+          "net_pay": 115000.0,
+          "date_of_birth": "14/07/1986"
+        },
+        {
+          "employer_name": "Infosys Limited",
+          "applicant_name": "Anand Pillai",
+          "slip_id": "EMP_061_3",
+          "pay_period": "2023-12",
+          "pay_month_name": "December 2023",
+          "gross_pay": 130000.0,
+          "deductions": 15000.0,
+          "net_pay": 115000.0,
+          "date_of_birth": "14/07/1986"
+        }
+      ],
+      "bank_statement": {
+        "bank_name": "HDFC Bank",
+        "account_holder": "Anand Pillai",
+        "account_number": "5010088000918",
+        "date_of_birth": "14/07/1986"
+      }
+    }
+  },
+  {
+    "applicant_id": "APP_062",
+    "is_clean": true,
+    "is_hard_negative": false,
+    "hard_negative_type": null,
+    "is_hard_test_set": true,
+    "planted_mismatches": [],
+    "expected_fields": {
+      "id_document": {
+        "id_type": "PAN",
+        "id_number": "PDSHK4455A",
+        "applicant_name": "Pooja Deshmukh",
+        "date_of_birth": "22/11/1992"
+      },
+      "salary_slips": [
+        {
+          "employer_name": "Tata Consultancy Services",
+          "applicant_name": "Pooja Deshmukh",
+          "slip_id": "EMP_062_1",
+          "pay_period": "2023-10",
+          "pay_month_name": "October 2023",
+          "gross_pay": 110000.0,
+          "deductions": 12000.0,
+          "net_pay": 98000.0,
+          "date_of_birth": "22/11/1992"
+        },
+        {
+          "employer_name": "Tata Consultancy Services",
+          "applicant_name": "Pooja Deshmukh",
+          "slip_id": "EMP_062_2",
+          "pay_period": "2023-11",
+          "pay_month_name": "November 2023",
+          "gross_pay": 110000.0,
+          "deductions": 12000.0,
+          "net_pay": 98000.0,
+          "date_of_birth": "22/11/1992"
+        },
+        {
+          "employer_name": "Tata Consultancy Services",
+          "applicant_name": "Pooja Deshmukh",
+          "slip_id": "EMP_062_3",
+          "pay_period": "2023-12",
+          "pay_month_name": "December 2023",
+          "gross_pay": 110000.0,
+          "deductions": 12000.0,
+          "net_pay": 98000.0,
+          "date_of_birth": "22/11/1992"
+        }
+      ],
+      "bank_statement": {
+        "bank_name": "ICICI Bank",
+        "account_holder": "Pooja Deshmukh",
+        "account_number": "5010036139505",
+        "date_of_birth": "22/11/1992"
+      }
+    }
+  },
+  {
+    "applicant_id": "APP_063",
+    "is_clean": true,
+    "is_hard_negative": false,
+    "hard_negative_type": null,
+    "is_hard_test_set": true,
+    "planted_mismatches": [],
+    "expected_fields": {
+      "id_document": {
+        "id_type": "PAN",
+        "id_number": "DJOSH8812K",
+        "applicant_name": "Devendra Joshi",
+        "date_of_birth": "10/05/1987"
+      },
+      "salary_slips": [
+        {
+          "employer_name": "Wipro Technologies",
+          "applicant_name": "Devendra Joshi",
+          "slip_id": "EMP_063_1",
+          "pay_period": "2023-10",
+          "pay_month_name": "October 2023",
+          "gross_pay": 145000.0,
+          "deductions": 20000.0,
+          "net_pay": 125000.0,
+          "date_of_birth": "10/05/1987"
+        },
+        {
+          "employer_name": "Wipro Technologies",
+          "applicant_name": "Devendra Joshi",
+          "slip_id": "EMP_063_2",
+          "pay_period": "2023-11",
+          "pay_month_name": "November 2023",
+          "gross_pay": 145000.0,
+          "deductions": 20000.0,
+          "net_pay": 125000.0,
+          "date_of_birth": null
+        },
+        {
+          "employer_name": "Wipro Technologies",
+          "applicant_name": "Devendra Joshi",
+          "slip_id": "EMP_063_3",
+          "pay_period": "2023-12",
+          "pay_month_name": "December 2023",
+          "gross_pay": 145000.0,
+          "deductions": 20000.0,
+          "net_pay": 125000.0,
+          "date_of_birth": null
+        }
+      ],
+      "bank_statement": {
+        "bank_name": "Axis Bank",
+        "account_holder": "Devendra Joshi",
+        "account_number": "5010082373836",
+        "date_of_birth": "10/05/1987"
+      }
+    }
+  },
+  {
+    "applicant_id": "APP_064",
+    "is_clean": true,
+    "is_hard_negative": false,
+    "hard_negative_type": null,
+    "is_hard_test_set": true,
+    "planted_mismatches": [],
+    "expected_fields": {
+      "id_document": {
+        "id_type": "PAN",
+        "id_number": "SSENG3321L",
+        "applicant_name": "Swati Sengupta",
+        "date_of_birth": "08/03/1990"
+      },
+      "salary_slips": [
+        {
+          "employer_name": "HCL Technologies",
+          "applicant_name": "Swati Sengupta",
+          "slip_id": "EMP_064_1",
+          "pay_period": "2023-10",
+          "pay_month_name": "October 2023",
+          "gross_pay": 125000.0,
+          "deductions": 18000.0,
+          "net_pay": 107000.0,
+          "date_of_birth": "08/03/1990"
+        },
+        {
+          "employer_name": "HCL Technologies",
+          "applicant_name": "Swati Sengupta",
+          "slip_id": "EMP_064_2",
+          "pay_period": "2023-11",
+          "pay_month_name": "November 2023",
+          "gross_pay": 125000.0,
+          "deductions": 18000.0,
+          "net_pay": 107000.0,
+          "date_of_birth": "08/03/1990"
+        },
+        {
+          "employer_name": "HCL Technologies",
+          "applicant_name": "Swati Sengupta",
+          "slip_id": "EMP_064_3",
+          "pay_period": "2023-12",
+          "pay_month_name": "December 2023",
+          "gross_pay": 125000.0,
+          "deductions": 18000.0,
+          "net_pay": 107000.0,
+          "date_of_birth": "08/03/1990"
+        }
+      ],
+      "bank_statement": {
+        "bank_name": "State Bank of India",
+        "account_holder": "Swati Sengupta",
+        "account_number": "5010058140507",
+        "date_of_birth": "08/03/1990"
+      }
+    }
+  },
+  {
+    "applicant_id": "APP_065",
+    "is_clean": true,
+    "is_hard_negative": true,
+    "hard_negative_type": "job_change",
+    "is_hard_test_set": true,
+    "planted_mismatches": [],
+    "expected_fields": {
+      "id_document": {
+        "id_type": "PAN",
+        "id_number": "GHEGD9910B",
+        "applicant_name": "Girish Hegde",
+        "date_of_birth": "19/09/1985"
+      },
+      "salary_slips": [
+        {
+          "employer_name": "Cognizant Technology Solutions",
+          "applicant_name": "Girish Hegde",
+          "slip_id": "EMP_065_1",
+          "pay_period": "2023-10",
+          "pay_month_name": "October 2023",
+          "gross_pay": 135000.0,
+          "deductions": 15000.0,
+          "net_pay": 120000.0,
+          "date_of_birth": "19/09/1985"
+        },
+        {
+          "employer_name": "Cognizant Technology Solutions",
+          "applicant_name": "Girish Hegde",
+          "slip_id": "EMP_065_2",
+          "pay_period": "2023-11",
+          "pay_month_name": "November 2023",
+          "gross_pay": 135000.0,
+          "deductions": 15000.0,
+          "net_pay": 120000.0,
+          "date_of_birth": "19/09/1985"
+        },
+        {
+          "employer_name": "Infosys Limited",
+          "applicant_name": "Girish Hegde",
+          "slip_id": "EMP_065_3",
+          "pay_period": "2023-12",
+          "pay_month_name": "December 2023",
+          "gross_pay": 135000.0,
+          "deductions": 15000.0,
+          "net_pay": 120000.0,
+          "date_of_birth": "19/09/1985"
+        }
+      ],
+      "bank_statement": {
+        "bank_name": "Kotak Mahindra Bank",
+        "account_holder": "Girish Hegde",
+        "account_number": "5010072698292",
+        "date_of_birth": "19/09/1985"
+      }
+    }
+  },
+  {
+    "applicant_id": "APP_066",
+    "is_clean": true,
+    "is_hard_negative": true,
+    "hard_negative_type": "late_salary",
+    "is_hard_test_set": true,
+    "planted_mismatches": [],
+    "expected_fields": {
+      "id_document": {
+        "id_type": "PAN",
+        "id_number": "TMUKH7712M",
+        "applicant_name": "Tarun Mukherjee",
+        "date_of_birth": "12/12/1989"
+      },
+      "salary_slips": [
+        {
+          "employer_name": "Larsen & Toubro Infotech",
+          "applicant_name": "Tarun Mukherjee",
+          "slip_id": "EMP_066_1",
+          "pay_period": "2023-10",
+          "pay_month_name": "October 2023",
+          "gross_pay": 150000.0,
+          "deductions": 25000.0,
+          "net_pay": 125000.0,
+          "date_of_birth": "12/12/1989"
+        },
+        {
+          "employer_name": "Larsen & Toubro Infotech",
+          "applicant_name": "Tarun Mukherjee",
+          "slip_id": "EMP_066_2",
+          "pay_period": "2023-11",
+          "pay_month_name": "November 2023",
+          "gross_pay": 150000.0,
+          "deductions": 25000.0,
+          "net_pay": 125000.0,
+          "date_of_birth": "12/12/1989"
+        },
+        {
+          "employer_name": "Larsen & Toubro Infotech",
+          "applicant_name": "Tarun Mukherjee",
+          "slip_id": "EMP_066_3",
+          "pay_period": "2023-12",
+          "pay_month_name": "December 2023",
+          "gross_pay": 150000.0,
+          "deductions": 25000.0,
+          "net_pay": 125000.0,
+          "date_of_birth": "12/12/1989"
+        }
+      ],
+      "bank_statement": {
+        "bank_name": "HDFC Bank",
+        "account_holder": "Tarun Mukherjee",
+        "account_number": "5010016512376",
+        "date_of_birth": "12/12/1989"
+      }
+    }
+  },
+  {
+    "applicant_id": "APP_067",
+    "is_clean": true,
+    "is_hard_negative": true,
+    "hard_negative_type": "initials_vs_fullname",
+    "is_hard_test_set": true,
+    "planted_mismatches": [],
+    "expected_fields": {
+      "id_document": {
+        "id_type": "AADHAAR",
+        "id_number": "7812 3456 9012",
+        "applicant_name": "V. K. Singhania",
+        "date_of_birth": "04/04/1983"
+      },
+      "salary_slips": [
+        {
+          "employer_name": "Tata Consultancy Services",
+          "applicant_name": "Vijay Kumar Singhania",
+          "slip_id": "EMP_067_1",
+          "pay_period": "2023-10",
+          "pay_month_name": "October 2023",
+          "gross_pay": 160000.0,
+          "deductions": 25000.0,
+          "net_pay": 135000.0,
+          "date_of_birth": "04/04/1983"
+        },
+        {
+          "employer_name": "Tata Consultancy Services",
+          "applicant_name": "Vijay Kumar Singhania",
+          "slip_id": "EMP_067_2",
+          "pay_period": "2023-11",
+          "pay_month_name": "November 2023",
+          "gross_pay": 160000.0,
+          "deductions": 25000.0,
+          "net_pay": 135000.0,
+          "date_of_birth": "04/04/1983"
+        },
+        {
+          "employer_name": "Tata Consultancy Services",
+          "applicant_name": "Vijay Kumar Singhania",
+          "slip_id": "EMP_067_3",
+          "pay_period": "2023-12",
+          "pay_month_name": "December 2023",
+          "gross_pay": 160000.0,
+          "deductions": 25000.0,
+          "net_pay": 135000.0,
+          "date_of_birth": "04/04/1983"
+        }
+      ],
+      "bank_statement": {
+        "bank_name": "ICICI Bank",
+        "account_holder": "Vijay Kumar Singhania",
+        "account_number": "5010099049522",
+        "date_of_birth": "04/04/1983"
+      }
+    }
+  },
+  {
+    "applicant_id": "APP_068",
+    "is_clean": false,
+    "is_hard_negative": false,
+    "hard_negative_type": null,
+    "is_hard_test_set": true,
+    "planted_mismatches": [
+      {
+        "type": "name_mismatch",
+        "description": "Salary slip #1 name 'Rohan Saxena' conflicts with ID proof 'Priya Nair'",
+        "target_document": "salary_slip_1.pdf",
+        "planted_value": "Rohan Saxena"
+      }
+    ],
+    "expected_fields": {
+      "id_document": {
+        "id_type": "PAN",
+        "id_number": "PNAIR5512N",
+        "applicant_name": "Priya Nair",
+        "date_of_birth": "25/01/1991"
+      },
+      "salary_slips": [
+        {
+          "employer_name": "Infosys Limited",
+          "applicant_name": "Rohan Saxena",
+          "slip_id": "EMP_068_1",
+          "pay_period": "2023-10",
+          "pay_month_name": "October 2023",
+          "gross_pay": 120000.0,
+          "deductions": 15000.0,
+          "net_pay": 105000.0,
+          "date_of_birth": "25/01/1991"
+        },
+        {
+          "employer_name": "Infosys Limited",
+          "applicant_name": "Priya Nair",
+          "slip_id": "EMP_068_2",
+          "pay_period": "2023-11",
+          "pay_month_name": "November 2023",
+          "gross_pay": 120000.0,
+          "deductions": 15000.0,
+          "net_pay": 105000.0,
+          "date_of_birth": "25/01/1991"
+        },
+        {
+          "employer_name": "Infosys Limited",
+          "applicant_name": "Priya Nair",
+          "slip_id": "EMP_068_3",
+          "pay_period": "2023-12",
+          "pay_month_name": "December 2023",
+          "gross_pay": 120000.0,
+          "deductions": 15000.0,
+          "net_pay": 105000.0,
+          "date_of_birth": "25/01/1991"
+        }
+      ],
+      "bank_statement": {
+        "bank_name": "Axis Bank",
+        "account_holder": "Priya Nair",
+        "account_number": "5010077581358",
+        "date_of_birth": "25/01/1991"
+      }
+    }
+  },
+  {
+    "applicant_id": "APP_069",
+    "is_clean": false,
+    "is_hard_negative": false,
+    "hard_negative_type": null,
+    "is_hard_test_set": true,
+    "planted_mismatches": [
+      {
+        "type": "dob_mismatch",
+        "description": "Salary slip #1 DOB '1986-04-12' conflicts with ID proof '15/08/1991'",
+        "target_document": "salary_slip_1.pdf",
+        "planted_value": "1986-04-12"
+      }
+    ],
+    "expected_fields": {
+      "id_document": {
+        "id_type": "PAN",
+        "id_number": "KKAPO1122C",
+        "applicant_name": "Kunal Kapoor",
+        "date_of_birth": "15/08/1991"
+      },
+      "salary_slips": [
+        {
+          "employer_name": "Wipro Technologies",
+          "applicant_name": "Kunal Kapoor",
+          "slip_id": "EMP_069_1",
+          "pay_period": "2023-10",
+          "pay_month_name": "October 2023",
+          "gross_pay": 130000.0,
+          "deductions": 18000.0,
+          "net_pay": 112000.0,
+          "date_of_birth": "1986-04-12"
+        },
+        {
+          "employer_name": "Wipro Technologies",
+          "applicant_name": "Kunal Kapoor",
+          "slip_id": "EMP_069_2",
+          "pay_period": "2023-11",
+          "pay_month_name": "November 2023",
+          "gross_pay": 130000.0,
+          "deductions": 18000.0,
+          "net_pay": 112000.0,
+          "date_of_birth": "15/08/1991"
+        },
+        {
+          "employer_name": "Wipro Technologies",
+          "applicant_name": "Kunal Kapoor",
+          "slip_id": "EMP_069_3",
+          "pay_period": "2023-12",
+          "pay_month_name": "December 2023",
+          "gross_pay": 130000.0,
+          "deductions": 18000.0,
+          "net_pay": 112000.0,
+          "date_of_birth": "15/08/1991"
+        }
+      ],
+      "bank_statement": {
+        "bank_name": "HDFC Bank",
+        "account_holder": "Kunal Kapoor",
+        "account_number": "5010038792785",
+        "date_of_birth": "15/08/1991"
+      }
+    }
+  },
+  {
+    "applicant_id": "APP_070",
+    "is_clean": false,
+    "is_hard_negative": false,
+    "hard_negative_type": null,
+    "is_hard_test_set": true,
+    "planted_mismatches": [
+      {
+        "type": "salary_gap",
+        "description": "Net pay on salary slip #1 is \u20b9120,000.00 but bank credit is only \u20b992,000.00",
+        "target_document": "salary_slip_1.pdf",
+        "planted_value": "\u20b992,000.00"
+      }
+    ],
+    "expected_fields": {
+      "id_document": {
+        "id_type": "PAN",
+        "id_number": "SRAOO6677D",
+        "applicant_name": "Sunita Rao",
+        "date_of_birth": "17/02/1988"
+      },
+      "salary_slips": [
+        {
+          "employer_name": "HCL Technologies",
+          "applicant_name": "Sunita Rao",
+          "slip_id": "EMP_070_1",
+          "pay_period": "2023-10",
+          "pay_month_name": "October 2023",
+          "gross_pay": 140000.0,
+          "deductions": 20000.0,
+          "net_pay": 120000.0,
+          "date_of_birth": "17/02/1988"
+        },
+        {
+          "employer_name": "HCL Technologies",
+          "applicant_name": "Sunita Rao",
+          "slip_id": "EMP_070_2",
+          "pay_period": "2023-11",
+          "pay_month_name": "November 2023",
+          "gross_pay": 140000.0,
+          "deductions": 20000.0,
+          "net_pay": 120000.0,
+          "date_of_birth": "17/02/1988"
+        },
+        {
+          "employer_name": "HCL Technologies",
+          "applicant_name": "Sunita Rao",
+          "slip_id": "EMP_070_3",
+          "pay_period": "2023-12",
+          "pay_month_name": "December 2023",
+          "gross_pay": 140000.0,
+          "deductions": 20000.0,
+          "net_pay": 120000.0,
+          "date_of_birth": "17/02/1988"
+        }
+      ],
+      "bank_statement": {
+        "bank_name": "ICICI Bank",
+        "account_holder": "Sunita Rao",
+        "account_number": "5010090804821",
+        "date_of_birth": "17/02/1988"
+      }
+    }
+  },
+  {
+    "applicant_id": "APP_071",
+    "is_clean": false,
+    "is_hard_negative": false,
+    "hard_negative_type": null,
+    "is_hard_test_set": true,
+    "planted_mismatches": [
+      {
+        "type": "missing_month",
+        "description": "Salary credit for November 2023 missing from bank statement",
+        "target_document": "bank_statement.pdf",
+        "planted_value": "missing_credit_nov"
+      }
+    ],
+    "expected_fields": {
+      "id_document": {
+        "id_type": "PAN",
+        "id_number": "ABHAS8899E",
+        "applicant_name": "Abhinav Bhasin",
+        "date_of_birth": "30/10/1987"
+      },
+      "salary_slips": [
+        {
+          "employer_name": "Cognizant Technology Solutions",
+          "applicant_name": "Abhinav Bhasin",
+          "slip_id": "EMP_071_1",
+          "pay_period": "2023-10",
+          "pay_month_name": "October 2023",
+          "gross_pay": 115000.0,
+          "deductions": 15000.0,
+          "net_pay": 100000.0,
+          "date_of_birth": "30/10/1987"
+        },
+        {
+          "employer_name": "Cognizant Technology Solutions",
+          "applicant_name": "Abhinav Bhasin",
+          "slip_id": "EMP_071_2",
+          "pay_period": "2023-11",
+          "pay_month_name": "November 2023",
+          "gross_pay": 115000.0,
+          "deductions": 15000.0,
+          "net_pay": 100000.0,
+          "date_of_birth": "30/10/1987"
+        },
+        {
+          "employer_name": "Cognizant Technology Solutions",
+          "applicant_name": "Abhinav Bhasin",
+          "slip_id": "EMP_071_3",
+          "pay_period": "2023-12",
+          "pay_month_name": "December 2023",
+          "gross_pay": 115000.0,
+          "deductions": 15000.0,
+          "net_pay": 100000.0,
+          "date_of_birth": "30/10/1987"
+        }
+      ],
+      "bank_statement": {
+        "bank_name": "State Bank of India",
+        "account_holder": "Abhinav Bhasin",
+        "account_number": "5010039755566",
+        "date_of_birth": "30/10/1987"
+      }
+    }
+  },
+  {
+    "applicant_id": "APP_072",
+    "is_clean": false,
+    "is_hard_negative": false,
+    "hard_negative_type": null,
+    "is_hard_test_set": true,
+    "planted_mismatches": [
+      {
+        "type": "employer_mismatch",
+        "description": "Salary slip claims 'Tata Consultancy Services' but bank deposit is from 'RELIANCE JIO INFOCOMM'",
+        "target_document": "salary_slip_1.pdf",
+        "planted_value": "RELIANCE JIO INFOCOMM"
+      }
+    ],
+    "expected_fields": {
+      "id_document": {
+        "id_type": "PAN",
+        "id_number": "MVENK3344F",
+        "applicant_name": "Meera Venkat",
+        "date_of_birth": "11/06/1993"
+      },
+      "salary_slips": [
+        {
+          "employer_name": "Tata Consultancy Services",
+          "applicant_name": "Meera Venkat",
+          "slip_id": "EMP_072_1",
+          "pay_period": "2023-10",
+          "pay_month_name": "October 2023",
+          "gross_pay": 125000.0,
+          "deductions": 15000.0,
+          "net_pay": 110000.0,
+          "date_of_birth": "11/06/1993"
+        },
+        {
+          "employer_name": "Tata Consultancy Services",
+          "applicant_name": "Meera Venkat",
+          "slip_id": "EMP_072_2",
+          "pay_period": "2023-11",
+          "pay_month_name": "November 2023",
+          "gross_pay": 125000.0,
+          "deductions": 15000.0,
+          "net_pay": 110000.0,
+          "date_of_birth": "11/06/1993"
+        },
+        {
+          "employer_name": "Tata Consultancy Services",
+          "applicant_name": "Meera Venkat",
+          "slip_id": "EMP_072_3",
+          "pay_period": "2023-12",
+          "pay_month_name": "December 2023",
+          "gross_pay": 125000.0,
+          "deductions": 15000.0,
+          "net_pay": 110000.0,
+          "date_of_birth": "11/06/1993"
+        }
+      ],
+      "bank_statement": {
+        "bank_name": "Axis Bank",
+        "account_holder": "Meera Venkat",
+        "account_number": "5010048724825",
+        "date_of_birth": "11/06/1993"
+      }
+    }
+  },
+  {
+    "applicant_id": "APP_073",
+    "is_clean": false,
+    "is_hard_negative": false,
+    "hard_negative_type": null,
+    "is_hard_test_set": true,
+    "planted_mismatches": [
+      {
+        "type": "edited_duplicate_slip",
+        "description": "Salary slip #1 arithmetic tampering: gross - deductions != stated net",
+        "target_document": "salary_slip_1.pdf",
+        "planted_value": "tampered_net_138000.0"
+      }
+    ],
+    "expected_fields": {
+      "id_document": {
+        "id_type": "PAN",
+        "id_number": "DCHAW9900G",
+        "applicant_name": "Deepak Chawla",
+        "date_of_birth": "05/09/1984"
+      },
+      "salary_slips": [
+        {
+          "employer_name": "Larsen & Toubro Infotech",
+          "applicant_name": "Deepak Chawla",
+          "slip_id": "EMP_073_1",
+          "pay_period": "2023-10",
+          "pay_month_name": "October 2023",
+          "gross_pay": 140000.0,
+          "deductions": 15000.0,
+          "net_pay": 138000.0,
+          "date_of_birth": "05/09/1984"
+        },
+        {
+          "employer_name": "Larsen & Toubro Infotech",
+          "applicant_name": "Deepak Chawla",
+          "slip_id": "EMP_073_2",
+          "pay_period": "2023-11",
+          "pay_month_name": "November 2023",
+          "gross_pay": 140000.0,
+          "deductions": 15000.0,
+          "net_pay": 125000.0,
+          "date_of_birth": "05/09/1984"
+        },
+        {
+          "employer_name": "Larsen & Toubro Infotech",
+          "applicant_name": "Deepak Chawla",
+          "slip_id": "EMP_073_3",
+          "pay_period": "2023-12",
+          "pay_month_name": "December 2023",
+          "gross_pay": 140000.0,
+          "deductions": 15000.0,
+          "net_pay": 125000.0,
+          "date_of_birth": "05/09/1984"
+        }
+      ],
+      "bank_statement": {
+        "bank_name": "HDFC Bank",
+        "account_holder": "Deepak Chawla",
+        "account_number": "5010075157816",
+        "date_of_birth": "05/09/1984"
+      }
+    }
+  },
+  {
+    "applicant_id": "APP_074",
+    "is_clean": false,
+    "is_hard_negative": false,
+    "hard_negative_type": null,
+    "is_hard_test_set": true,
+    "planted_mismatches": [
+      {
+        "type": "name_mismatch",
+        "description": "Applicant Name could not be extracted from ID document (missing critical field)",
+        "target_document": "id_document.pdf",
+        "planted_value": "not_found"
+      }
+    ],
+    "expected_fields": {
+      "id_document": {
+        "id_type": "PAN",
+        "id_number": "SJAIN1144H",
+        "applicant_name": "not_found",
+        "date_of_birth": "18/12/1990"
+      },
+      "salary_slips": [
+        {
+          "employer_name": "Infosys Limited",
+          "applicant_name": "Siddharth Jain",
+          "slip_id": "EMP_074_1",
+          "pay_period": "2023-10",
+          "pay_month_name": "October 2023",
+          "gross_pay": 130000.0,
+          "deductions": 15000.0,
+          "net_pay": 115000.0,
+          "date_of_birth": "18/12/1990"
+        },
+        {
+          "employer_name": "Infosys Limited",
+          "applicant_name": "Siddharth Jain",
+          "slip_id": "EMP_074_2",
+          "pay_period": "2023-11",
+          "pay_month_name": "November 2023",
+          "gross_pay": 130000.0,
+          "deductions": 15000.0,
+          "net_pay": 115000.0,
+          "date_of_birth": "18/12/1990"
+        },
+        {
+          "employer_name": "Infosys Limited",
+          "applicant_name": "Siddharth Jain",
+          "slip_id": "EMP_074_3",
+          "pay_period": "2023-12",
+          "pay_month_name": "December 2023",
+          "gross_pay": 130000.0,
+          "deductions": 15000.0,
+          "net_pay": 115000.0,
+          "date_of_birth": "18/12/1990"
+        }
+      ],
+      "bank_statement": {
+        "bank_name": "ICICI Bank",
+        "account_holder": "Siddharth Jain",
+        "account_number": "5010038504727",
+        "date_of_birth": "18/12/1990"
+      }
+    }
+  },
+  {
+    "applicant_id": "APP_075",
+    "is_clean": false,
+    "is_hard_negative": false,
+    "hard_negative_type": null,
+    "is_hard_test_set": true,
+    "planted_mismatches": [
+      {
+        "type": "missing_month",
+        "description": "Salary slip pay period unreadable; bank credit cannot be reconciled",
+        "target_document": "salary_slip_1.pdf",
+        "planted_value": "missing_period"
+      }
+    ],
+    "expected_fields": {
+      "id_document": {
+        "id_type": "PAN",
+        "id_number": "ASENN7788J",
+        "applicant_name": "Ananya Sen",
+        "date_of_birth": "21/04/1992"
+      },
+      "salary_slips": [
+        {
+          "employer_name": "Wipro Technologies",
+          "applicant_name": "Ananya Sen",
+          "slip_id": "EMP_075_1",
+          "pay_period": "2023-10",
+          "pay_month_name": "October 2023",
+          "gross_pay": 120000.0,
+          "deductions": 15000.0,
+          "net_pay": 105000.0,
+          "date_of_birth": "21/04/1992"
+        },
+        {
+          "employer_name": "Wipro Technologies",
+          "applicant_name": "Ananya Sen",
+          "slip_id": "EMP_075_2",
+          "pay_period": "2023-11",
+          "pay_month_name": "November 2023",
+          "gross_pay": 120000.0,
+          "deductions": 15000.0,
+          "net_pay": 105000.0,
+          "date_of_birth": "21/04/1992"
+        },
+        {
+          "employer_name": "Wipro Technologies",
+          "applicant_name": "Ananya Sen",
+          "slip_id": "EMP_075_3",
+          "pay_period": "2023-12",
+          "pay_month_name": "December 2023",
+          "gross_pay": 120000.0,
+          "deductions": 15000.0,
+          "net_pay": 105000.0,
+          "date_of_birth": "21/04/1992"
+        }
+      ],
+      "bank_statement": {
+        "bank_name": "Kotak Mahindra Bank",
+        "account_holder": "Ananya Sen",
+        "account_number": "5010054162664",
+        "date_of_birth": "21/04/1992"
+      }
+    },
+    "honest_limit": true,
+    "honest_limit_reason": "pay_period field is unreadable in noisy PDF; pipeline correctly skips reconciliation when pay_period=not_found"
+  }
+]

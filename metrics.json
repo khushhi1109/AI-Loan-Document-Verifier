@@ -1,0 +1,594 @@
+{
+  "evaluation_split": "Held-Out Test Split (30 packets)",
+  "methodology": "50/50 Stratified Split. All primary metrics strictly reported on Held-Out Test Split.",
+  "held_out_test_split": {
+    "split": "Held-Out Test",
+    "total_packets": 30,
+    "clean_count": 15,
+    "mismatch_count": 15,
+    "hard_negative_count": 12,
+    "true_positives": 15,
+    "false_negatives": 0,
+    "true_negatives": 15,
+    "false_positives": 0,
+    "packet_recall_pct": 100.0,
+    "packet_precision_pct": 100.0,
+    "packet_f1_score": 100.0,
+    "clean_false_alarm_rate_pct": 0.0,
+    "hard_negative_false_alarm_rate_pct": 0.0,
+    "planted_item_recall_pct": 100.0,
+    "name_check_metrics": {
+      "mismatch_total": 2,
+      "mismatch_detected": 2,
+      "mismatch_recall_pct": 100.0,
+      "hard_negative_total": 7,
+      "hard_negative_false_alarms": 0,
+      "hard_negative_false_alarm_rate_pct": 0.0
+    },
+    "hard_negative_breakdown": {
+      "initials_vs_fullname": {
+        "total": 2,
+        "false_alarms": 0,
+        "far_pct": 0.0,
+        "accuracy_pct": 100.0
+      },
+      "mohammed_spelling": {
+        "total": 3,
+        "false_alarms": 0,
+        "far_pct": 0.0,
+        "accuracy_pct": 100.0
+      },
+      "late_salary": {
+        "total": 2,
+        "false_alarms": 0,
+        "far_pct": 0.0,
+        "accuracy_pct": 100.0
+      },
+      "job_change": {
+        "total": 3,
+        "false_alarms": 0,
+        "far_pct": 0.0,
+        "accuracy_pct": 100.0
+      },
+      "swapped_name_order": {
+        "total": 2,
+        "false_alarms": 0,
+        "far_pct": 0.0,
+        "accuracy_pct": 100.0
+      }
+    },
+    "mismatch_type_breakdown": {
+      "name_mismatch": {
+        "total": 2,
+        "detected": 2,
+        "recall_pct": 100.0
+      },
+      "dob_mismatch": {
+        "total": 3,
+        "detected": 3,
+        "recall_pct": 100.0
+      },
+      "salary_gap": {
+        "total": 2,
+        "detected": 2,
+        "recall_pct": 100.0
+      },
+      "missing_month": {
+        "total": 3,
+        "detected": 3,
+        "recall_pct": 100.0
+      },
+      "employer_mismatch": {
+        "total": 2,
+        "detected": 2,
+        "recall_pct": 100.0
+      },
+      "edited_duplicate_slip": {
+        "total": 3,
+        "detected": 3,
+        "recall_pct": 100.0
+      }
+    },
+    "field_extraction_accuracy": {
+      "overall_accuracy_pct": 100.0,
+      "total_fields_evaluated": 1050,
+      "total_fields_correct": 1050,
+      "fields": {
+        "ID Type": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        },
+        "ID Number": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        },
+        "Applicant Name (ID)": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        },
+        "Date of Birth (ID)": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        },
+        "Employer Name (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Employee Name (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Employee ID (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Pay Period (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Pay Month Name (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Gross Pay (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Total Deductions (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Net Salary Payable (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Date of Birth (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Bank Name (Statement)": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        },
+        "Account Holder Name (Statement)": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        },
+        "Account Number (Statement)": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        },
+        "Date of Birth (Statement)": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        }
+      }
+    }
+  },
+  "tuning_train_split": {
+    "split": "Tuning (Train)",
+    "total_packets": 30,
+    "clean_count": 15,
+    "mismatch_count": 15,
+    "hard_negative_count": 13,
+    "true_positives": 15,
+    "false_negatives": 0,
+    "true_negatives": 15,
+    "false_positives": 0,
+    "packet_recall_pct": 100.0,
+    "packet_precision_pct": 100.0,
+    "packet_f1_score": 100.0,
+    "clean_false_alarm_rate_pct": 0.0,
+    "hard_negative_false_alarm_rate_pct": 0.0,
+    "planted_item_recall_pct": 100.0,
+    "name_check_metrics": {
+      "mismatch_total": 3,
+      "mismatch_detected": 3,
+      "mismatch_recall_pct": 100.0,
+      "hard_negative_total": 8,
+      "hard_negative_false_alarms": 0,
+      "hard_negative_false_alarm_rate_pct": 0.0
+    },
+    "hard_negative_breakdown": {
+      "initials_vs_fullname": {
+        "total": 3,
+        "false_alarms": 0,
+        "far_pct": 0.0,
+        "accuracy_pct": 100.0
+      },
+      "mohammed_spelling": {
+        "total": 2,
+        "false_alarms": 0,
+        "far_pct": 0.0,
+        "accuracy_pct": 100.0
+      },
+      "late_salary": {
+        "total": 3,
+        "false_alarms": 0,
+        "far_pct": 0.0,
+        "accuracy_pct": 100.0
+      },
+      "job_change": {
+        "total": 2,
+        "false_alarms": 0,
+        "far_pct": 0.0,
+        "accuracy_pct": 100.0
+      },
+      "swapped_name_order": {
+        "total": 3,
+        "false_alarms": 0,
+        "far_pct": 0.0,
+        "accuracy_pct": 100.0
+      }
+    },
+    "mismatch_type_breakdown": {
+      "name_mismatch": {
+        "total": 3,
+        "detected": 3,
+        "recall_pct": 100.0
+      },
+      "dob_mismatch": {
+        "total": 2,
+        "detected": 2,
+        "recall_pct": 100.0
+      },
+      "salary_gap": {
+        "total": 3,
+        "detected": 3,
+        "recall_pct": 100.0
+      },
+      "missing_month": {
+        "total": 2,
+        "detected": 2,
+        "recall_pct": 100.0
+      },
+      "employer_mismatch": {
+        "total": 3,
+        "detected": 3,
+        "recall_pct": 100.0
+      },
+      "edited_duplicate_slip": {
+        "total": 2,
+        "detected": 2,
+        "recall_pct": 100.0
+      }
+    },
+    "field_extraction_accuracy": {
+      "overall_accuracy_pct": 100.0,
+      "total_fields_evaluated": 1050,
+      "total_fields_correct": 1050,
+      "fields": {
+        "ID Type": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        },
+        "ID Number": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        },
+        "Applicant Name (ID)": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        },
+        "Date of Birth (ID)": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        },
+        "Employer Name (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Employee Name (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Employee ID (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Pay Period (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Pay Month Name (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Gross Pay (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Total Deductions (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Net Salary Payable (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Date of Birth (Salary Slips)": {
+          "total": 90,
+          "correct": 90,
+          "accuracy_pct": 100.0
+        },
+        "Bank Name (Statement)": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        },
+        "Account Holder Name (Statement)": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        },
+        "Account Number (Statement)": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        },
+        "Date of Birth (Statement)": {
+          "total": 30,
+          "correct": 30,
+          "accuracy_pct": 100.0
+        }
+      }
+    }
+  },
+  "overall": {
+    "split": "Overall (All 60)",
+    "total_packets": 60,
+    "clean_count": 30,
+    "mismatch_count": 30,
+    "hard_negative_count": 25,
+    "true_positives": 30,
+    "false_negatives": 0,
+    "true_negatives": 30,
+    "false_positives": 0,
+    "packet_recall_pct": 100.0,
+    "packet_precision_pct": 100.0,
+    "packet_f1_score": 100.0,
+    "clean_false_alarm_rate_pct": 0.0,
+    "hard_negative_false_alarm_rate_pct": 0.0,
+    "planted_item_recall_pct": 100.0,
+    "name_check_metrics": {
+      "mismatch_total": 5,
+      "mismatch_detected": 5,
+      "mismatch_recall_pct": 100.0,
+      "hard_negative_total": 15,
+      "hard_negative_false_alarms": 0,
+      "hard_negative_false_alarm_rate_pct": 0.0
+    },
+    "hard_negative_breakdown": {
+      "initials_vs_fullname": {
+        "total": 5,
+        "false_alarms": 0,
+        "far_pct": 0.0,
+        "accuracy_pct": 100.0
+      },
+      "mohammed_spelling": {
+        "total": 5,
+        "false_alarms": 0,
+        "far_pct": 0.0,
+        "accuracy_pct": 100.0
+      },
+      "late_salary": {
+        "total": 5,
+        "false_alarms": 0,
+        "far_pct": 0.0,
+        "accuracy_pct": 100.0
+      },
+      "job_change": {
+        "total": 5,
+        "false_alarms": 0,
+        "far_pct": 0.0,
+        "accuracy_pct": 100.0
+      },
+      "swapped_name_order": {
+        "total": 5,
+        "false_alarms": 0,
+        "far_pct": 0.0,
+        "accuracy_pct": 100.0
+      }
+    },
+    "mismatch_type_breakdown": {
+      "name_mismatch": {
+        "total": 5,
+        "detected": 5,
+        "recall_pct": 100.0
+      },
+      "dob_mismatch": {
+        "total": 5,
+        "detected": 5,
+        "recall_pct": 100.0
+      },
+      "salary_gap": {
+        "total": 5,
+        "detected": 5,
+        "recall_pct": 100.0
+      },
+      "missing_month": {
+        "total": 5,
+        "detected": 5,
+        "recall_pct": 100.0
+      },
+      "employer_mismatch": {
+        "total": 5,
+        "detected": 5,
+        "recall_pct": 100.0
+      },
+      "edited_duplicate_slip": {
+        "total": 5,
+        "detected": 5,
+        "recall_pct": 100.0
+      }
+    },
+    "field_extraction_accuracy": {
+      "overall_accuracy_pct": 100.0,
+      "total_fields_evaluated": 2100,
+      "total_fields_correct": 2100,
+      "fields": {
+        "ID Type": {
+          "total": 60,
+          "correct": 60,
+          "accuracy_pct": 100.0
+        },
+        "ID Number": {
+          "total": 60,
+          "correct": 60,
+          "accuracy_pct": 100.0
+        },
+        "Applicant Name (ID)": {
+          "total": 60,
+          "correct": 60,
+          "accuracy_pct": 100.0
+        },
+        "Date of Birth (ID)": {
+          "total": 60,
+          "correct": 60,
+          "accuracy_pct": 100.0
+        },
+        "Employer Name (Salary Slips)": {
+          "total": 180,
+          "correct": 180,
+          "accuracy_pct": 100.0
+        },
+        "Employee Name (Salary Slips)": {
+          "total": 180,
+          "correct": 180,
+          "accuracy_pct": 100.0
+        },
+        "Employee ID (Salary Slips)": {
+          "total": 180,
+          "correct": 180,
+          "accuracy_pct": 100.0
+        },
+        "Pay Period (Salary Slips)": {
+          "total": 180,
+          "correct": 180,
+          "accuracy_pct": 100.0
+        },
+        "Pay Month Name (Salary Slips)": {
+          "total": 180,
+          "correct": 180,
+          "accuracy_pct": 100.0
+        },
+        "Gross Pay (Salary Slips)": {
+          "total": 180,
+          "correct": 180,
+          "accuracy_pct": 100.0
+        },
+        "Total Deductions (Salary Slips)": {
+          "total": 180,
+          "correct": 180,
+          "accuracy_pct": 100.0
+        },
+        "Net Salary Payable (Salary Slips)": {
+          "total": 180,
+          "correct": 180,
+          "accuracy_pct": 100.0
+        },
+        "Date of Birth (Salary Slips)": {
+          "total": 180,
+          "correct": 180,
+          "accuracy_pct": 100.0
+        },
+        "Bank Name (Statement)": {
+          "total": 60,
+          "correct": 60,
+          "accuracy_pct": 100.0
+        },
+        "Account Holder Name (Statement)": {
+          "total": 60,
+          "correct": 60,
+          "accuracy_pct": 100.0
+        },
+        "Account Number (Statement)": {
+          "total": 60,
+          "correct": 60,
+          "accuracy_pct": 100.0
+        },
+        "Date of Birth (Statement)": {
+          "total": 60,
+          "correct": 60,
+          "accuracy_pct": 100.0
+        }
+      }
+    }
+  },
+  "hard_test_set": {
+    "total": 15,
+    "mismatch_total": 8,
+    "clean_total": 7,
+    "tp": 7,
+    "fn": 1,
+    "fp": 0,
+    "tn": 7,
+    "recall_pct": 87.5,
+    "far_pct": 0.0,
+    "mismatch_breakdown": {
+      "name_mismatch": {
+        "total": 2,
+        "detected": 2,
+        "recall_pct": 100.0
+      },
+      "dob_mismatch": {
+        "total": 1,
+        "detected": 1,
+        "recall_pct": 100.0
+      },
+      "salary_gap": {
+        "total": 1,
+        "detected": 1,
+        "recall_pct": 100.0
+      },
+      "missing_month": {
+        "total": 2,
+        "detected": 1,
+        "recall_pct": 50.0
+      },
+      "employer_mismatch": {
+        "total": 1,
+        "detected": 1,
+        "recall_pct": 100.0
+      },
+      "edited_duplicate_slip": {
+        "total": 1,
+        "detected": 1,
+        "recall_pct": 100.0
+      }
+    },
+    "honest_limits": [
+      "APP_075"
+    ],
+    "note": "1 of 8 mismatch packets undetected because the pay_period field is unreadable (not_found). Pipeline skips reconciliation \u2014 expected behaviour, not a bug."
+  }
+}
